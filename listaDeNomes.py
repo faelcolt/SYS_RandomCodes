@@ -1,3 +1,5 @@
+# função para criar uma lista de nomes e listá-los na ordem em que foram digitados, com separação semântica.
+
 def listaDeNomes():
     listaDeNomes = list()
     contador = 1
