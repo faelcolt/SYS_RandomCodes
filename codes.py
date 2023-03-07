@@ -8,6 +8,16 @@ while True:
     contador += 1
     if continuar == 'N':
         break
-    
-print(f'Os nomes digitados foram {listaDeNomes}')
+
+posicaoNome = 0
+print('Os nomes digitados foram: ',end='')
+for c in range(0, len(listaDeNomes)):
+    if listaDeNomes[posicaoNome] == listaDeNomes[-1]:
+        print('e ', end='')
+    print(f'{listaDeNomes[posicaoNome]}', end='')
+    if listaDeNomes[posicaoNome] == listaDeNomes[-1]:
+        print('. ', end='')
+    else:
+        print(', ', end='')
+    posicaoNome += 1
     
