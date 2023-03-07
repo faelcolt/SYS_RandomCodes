@@ -1,4 +1,4 @@
-def listaDeNomes:
+def listaDeNomes():
     listaDeNomes = list()
     contador = 1
 
