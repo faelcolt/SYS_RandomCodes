@@ -44,4 +44,5 @@ def listando_nomes():
         for texto in lista_de_nomes:
             arquivo.write(str(texto) + '\n')
 
+
 listando_nomes()
