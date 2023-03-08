@@ -28,14 +28,9 @@ for c in range(0, len(listaDeNomes)):
         print(', ', end='')
     posicaoNome += 1
 
-# essa parte do código criará um documento em word para ser utilizado separadamente do código
-
+# essa parte do código cria um documento em word para ser utilizado separadamente do código
 with open('lista_de_nomes.txt', 'w') as arquivo:
     for texto in listaDeNomes:
-        arquivo.write(str(texto))
-
-
-
-
+        arquivo.write(str(texto) + '\n')
 
 # em andamento...
