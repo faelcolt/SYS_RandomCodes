@@ -1,4 +1,5 @@
-'''função para criar uma lista de nomes e listá-los na ordem em que foram digitados, com separação semântica.''' 
+''' Função para criar uma lista de nomes e listá-los na ordem em que foram digitados, com separação semântica e depois criar
+um documento em word para ser reutilizado. ''' 
 
 # adiciona os nomes digitados em uma lista
 def listaDeNomes():
