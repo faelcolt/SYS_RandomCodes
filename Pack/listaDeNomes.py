@@ -22,6 +22,8 @@ def listaDeNomes():
         print(f'{listaDeNomes[posicaoNome]}', end='')
         if listaDeNomes[posicaoNome] == listaDeNomes[-1]:
             print('. ', end='')
+        elif listaDeNomes[posicaoNome] == listaDeNomes[-2]:
+            print(' ', end='')
         else:
             print(', ', end='')
         posicaoNome += 1
