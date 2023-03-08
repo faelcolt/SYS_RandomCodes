@@ -16,7 +16,7 @@ def listaDeNomes():
 
 # separa os nomes digitados de forma semântica
     posicaoNome = 0
-    print('Os nomes digitados foram: ',end='')
+    print('Os nomes digitados foram: ', end='')
     for c in range(0, len(listaDeNomes)):
         if listaDeNomes[posicaoNome] == listaDeNomes[-1]:
             print('e ', end='')
@@ -34,3 +34,4 @@ listaDeNomes()
 # essa parte do código criará um documento em word para ser utilizado separadamente do código
 
 # em andamento...
+
