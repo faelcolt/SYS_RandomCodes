@@ -1,6 +1,7 @@
 ''' Função para criar uma lista de nomes e listá-los na ordem em que foram digitados com separação semântica e depois criar
 um documento em word para ser reutilizado. ''' 
 
+
 # adiciona os nomes digitados em uma lista
 lista_de_nomes = list()
 contador = 1
@@ -13,7 +14,7 @@ while True:
         break
 
 
-# separa os nomes digitados de forma semântica
+# separa os nomes digitados na lista de forma semântica
 posicaoNome = 0
 print('Os nomes digitados foram: ', end='')
 for c in range(0, len(lista_de_nomes)):
@@ -30,11 +31,11 @@ for c in range(0, len(lista_de_nomes)):
 print()
 
 
-# essa parte do código permite que você dê um nome para o arquivo antes de criá-lo
+# permite que você dê um nome para o arquivo antes de criá-lo
 nome_do_arquivo = str(input('Digite o nome do arquivo: '))
 
 
-# essa parte do código cria um documento em word para ser utilizado separadamente do código
+# cria um documento em word para ser utilizado separadamente do código
 with open(f'{nome_do_arquivo}.txt', 'w') as arquivo:
     for texto in lista_de_nomes:
         arquivo.write(str(texto) + '\n')
