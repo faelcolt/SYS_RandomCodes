@@ -1,5 +1,6 @@
-# função para criar uma lista de nomes e listá-los na ordem em que foram digitados, com separação semântica.
+'''função para criar uma lista de nomes e listá-los na ordem em que foram digitados, com separação semântica.''' 
 
+# essa parte do código adiciona os nomes digitados em uma lista
 def listaDeNomes():
     listaDeNomes = list()
     contador = 1
@@ -12,6 +13,7 @@ def listaDeNomes():
         if continuar == 'N':
             break
 
+# essa parte do código separa os nomes digitados de forma semântica e coerente
     posicaoNome = 0
     print('Os nomes digitados foram: ',end='')
     for c in range(0, len(listaDeNomes)):
@@ -25,3 +27,5 @@ def listaDeNomes():
         posicaoNome += 1
 
 listaDeNomes()
+
+# essa parte do código criará um documento em word para ser utilizado separadamente do código
