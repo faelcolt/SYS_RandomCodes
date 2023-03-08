@@ -42,4 +42,5 @@ with open(f'{nome_do_arquivo}.txt', 'w') as arquivo:
     for texto in lista_de_nomes:
         arquivo.write(str(texto) + '\n')
 
+
 # em andamento...
