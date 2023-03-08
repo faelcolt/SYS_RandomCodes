@@ -28,4 +28,6 @@ def listaDeNomes():
 
 listaDeNomes()
 
-# essa parte do código criará um documento em word para ser utilizado separadamente do código
+# essa parte do código criará um documento em word para ser utilizado separadamente do código com os nomes digitados
+
+# em andamento...
