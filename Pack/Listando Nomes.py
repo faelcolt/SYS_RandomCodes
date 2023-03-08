@@ -35,11 +35,13 @@ def listando_nomes():
     nome_do_arquivo = str(input('Digite o nome do arquivo: '))
 
 
+    # essa função permite que a pessoa escolha se quer ler, escrever, modificar, apagar ou juntar arquivos
+    # em andamento...
+    
+    
     # cria um documento em word para ser utilizado separadamente do código
     with open(f'{nome_do_arquivo}.txt', 'w') as arquivo:
         for texto in lista_de_nomes:
             arquivo.write(str(texto) + '\n')
 
-
-# em andamento...
 listando_nomes()
