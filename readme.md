@@ -6,5 +6,5 @@ Vou transformar todos em funções para facilitar o uso.
 
 Vou escrevendo e melhorando conforme as necessidades.
 
-A intenção é comentar e detalhar os códigos que qualquer um possa utilizar.
+A intenção é comentar e detalhar os códigos para que qualquer um possa utilizar.
 
