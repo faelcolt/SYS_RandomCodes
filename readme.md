@@ -1,10 +1,8 @@
-Estou criando e atualizando esse pack com códigos que utilizo com frequência.
+Este repositório têm pequenos scripts de ideias aleatórias que tenho, 
+funções que utilizo frequentemente no trabalho ou pequenos projetos em desenvolvimento sem nenhuma pretensão. 
 
-Aceito sugestões e melhorias nos códigos.
+Quando a ideia ganha mais forma, 
+geralmente eu transformo em um bot para automatizar tarefas, 
+um script ou um pequeno aplicativo.
 
-Vou transformar todos em funções para facilitar o uso.
-
-Vou escrevendo e melhorando conforme as necessidades.
-
-A intenção é comentar e detalhar os códigos para que qualquer um possa utilizar.
-
+Fique a vontade para sugerir melhorias nos códigos.
