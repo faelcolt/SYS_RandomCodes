@@ -1,5 +1,5 @@
 # essa é a biblioteca que será utilizada para a leitura dos textos
-# para baixar é só abrir o seu terminal e digitar "pip install pyttsx3"
+# para baixá-la é só abrir o seu terminal e digitar "pip install pyttsx3"
 import pyttsx3
 
 book = open(r'texto_aleatorio.txt')
