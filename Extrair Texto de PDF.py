@@ -2,7 +2,6 @@
 
 # biblioteca utilizada para manipular PDF's
 # para baixá-la é só abrir o seu terminal e digitar "pip install PyPDF2"
-
 import PyPDF2
 
 # carrega o arquivo PDF
