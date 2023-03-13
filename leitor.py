@@ -1,3 +1,5 @@
+'''Leitor de Textos'''
+
 # essa é a biblioteca que será utilizada para a leitura dos textos
 # para baixá-la é só abrir o seu terminal e digitar "pip install pyttsx3"
 import pyttsx3

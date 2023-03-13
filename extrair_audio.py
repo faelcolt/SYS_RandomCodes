@@ -1,3 +1,5 @@
+'''Conversor de vídeo para áudio'''
+
 # essa é a biblioteca que será utilizada para a conversão dos arquivos
 # para baixá-la é só abrir o seu terminal e digitar "pip install moviepy"
 import moviepy
